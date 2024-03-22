@@ -1,0 +1,268 @@
+@charset "UTF-8";
+
+/*
+	Ion by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
+
+/* Basic */
+
+	body, input, select, textarea {
+		font-size: 13pt;
+	}
+
+/* Wrapper */
+
+	.wrapper {
+		padding: 4em 0 2em 0;
+	}
+
+/* Header */
+
+	#skel-layers-wrapper {
+		padding-top: 0;
+	}
+
+	#header {
+		display: none;
+	}
+
+/*Icon-Center*/
+
+	#icon-center{
+		text-align:center;
+
+	}
+
+/* Icon Check */
+
+	#icon-check {
+		text-align:center;
+	}
+
+	#bump-out{
+		margin-left:0!important;
+	}
+		#bump-out .2u{
+			padding-left: 0!important;
+		}
+
+		#bump-out .2u{
+			padding-left: 0!important;
+		}
+
+	#bump-out-copy h3{
+		padding-left:.5em!important;
+
+	}
+	#bump-out-copy ul{
+		padding-left:.5em!important;
+
+	}
+
+/* Layers */
+
+	#navButton .toggle {
+		text-decoration: none;
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+
+		#navButton .toggle:before {
+			content: "";
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+		#navButton .toggle:before {
+			background: rgba(144, 149, 154, 0.75);
+			border-radius: 10px;
+			color: #fff;
+			display: block;
+			font-size: 17px;
+			height: 2em;
+			left: 1em;
+			line-height: 2em;
+			position: absolute;
+			text-align: center;
+			top: 1.5em;
+			width: 4em;
+		}
+
+	#navPanel {
+		background: #192024;
+		color: #c5c7c8;
+	}
+
+		#navPanel nav {
+			padding: 0.5em 1.25em;
+		}
+
+			#navPanel nav ul {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+			}
+
+				#navPanel nav ul li {
+					padding: 0;
+				}
+
+					#navPanel nav ul li:first-child a:not(.button), #navPanel nav ul li:first-child span:not(.button) {
+						border-top: 0;
+					}
+
+					#navPanel nav ul li a:not(.button), #navPanel nav ul li span:not(.button) {
+						border-top: solid 1px rgba(144, 144, 144, 0.25);
+						color: #ffffff;
+						display: block;
+						padding: 0.75em 0;
+						text-decoration: none;
+					}
+
+					#navPanel nav ul li a.button {
+						margin-top: 1em;
+					}
+
+			#navPanel nav .button {
+				width: 100%;
+			}
+
+	.icon{
+		text-align:center;
+
+	}
+
+/* Banner */
+
+	#hero {
+		background-size: 165%;
+		background-position: left top;
+		background-repeat: no-repeat;
+		padding: 1.5em 0 6em 0;
+		text-align: right;
+		position: relative;
+		font-size: .9em;
+		}
+
+	#hero hr.line{
+		width:100%;
+	}
+
+
+/* banner_mid_2 */
+
+	#banner_mid_2 {
+		background-size: 165%;
+		background-position: left top;
+		background-repeat: no-repeat;
+		padding: 1.5em 0 6em 0;
+		text-align: right;
+		position: relative;
+		font-size: .9em;
+	}
+	#banner_mid_2 hr.line{
+		width:100%;
+	}
+
+/* banner_header_3 */
+
+	#banner_header_3 {
+		background-size: 165%;
+		background-position: left top;
+		background-repeat: no-repeat;
+		padding: 1.5em 0 6em 0;
+		text-align: right;
+		position: relative;
+		font-size: .9em;
+	}
+
+	#banner_header_3 hr.line{
+		width:100%;
+	}
+
+/* banner_header_4 */
+
+	#banner_header_4 {
+		background-size: 165%;
+		background-position: left top;
+		background-repeat: no-repeat;
+		padding: 1.5em 0 6em 0;
+		text-align: right;
+		position: relative;
+		font-size: .9em;
+	}
+
+	#banner_header_4 hr.line{
+		width:100%;
+	}
+
+/* banner_header_5 */
+
+	#banner_header_5 {
+		background-size: 165%;
+		background-position: left top;
+		background-repeat: no-repeat;
+		padding: 1.5em 0 6em 0;
+		text-align: right;
+		position: relative;
+		font-size: .9em;
+	}
+
+	#banner_header_5 hr.line{
+		width:100%;
+	}
+
+/* banner_contact */
+
+	#banner_contact {
+		background-size: 200%;
+		background-position: left top;
+		background-repeat: no-repeat;
+		padding: 1.5em 0 6em 0;
+		text-align: right;
+		position: relative;
+		font-size: .9em;
+		}
+
+	#banner_contact hr.line{
+		width:100%;
+	}
+
+
+/*
+	#banner {
+		background-size: 165%;
+		background-position: left top;
+		background-repeat: no-repeat;
+		padding: 1.5em 0 6em 0;
+		text-align: right;
+		position: relative;
+		font-size: .9em;
+		}
+*/
+
+
+
+/* Banner_Footer */
+
+	#banner_footer {
+		background-color: #424242;
+		background-size: 55%;
+		background-position: center center;
+		background-repeat: no-repeat;
+		color: #d8d8d8;
+		padding: 6em 0 0 0;
+		text-align: center;
+		position: relative;
+	}
+
+

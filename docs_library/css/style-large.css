@@ -1,0 +1,152 @@
+/* Basic */
+
+	body, input, select, textarea {
+		font-size: 13pt;
+	}
+
+/*Header Logo*/
+
+	#header-logo a img{
+		height:45px; 
+		width:350px; 
+		margin:.85em;
+	}
+
+/*Middle Logo*/
+
+	#mid-logo img{
+		height:280px; 
+		width:480px;
+		margin:.85em;
+	}
+
+
+/*Header*/
+		
+	#skel-layers-wrapper {
+		padding-top: 4.5em;
+	}
+
+	#header {
+		background: #fff;
+		color: #555f66;
+		cursor: default;
+		height: 4.5em;
+		left: 0;
+		line-height: 4.5em;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: 10000;
+		box-shadow: 0 0 0.1em 0 rgba(0, 0, 0, 0.25);
+	}	
+		#header nav > ul {
+			list-style: none;
+			margin: 0;
+			padding-left: 0;
+			font-size: .9em;
+			font-weight: 700;
+		}
+
+/* Icon Check */
+
+	#icon-check img{
+		height:195px; 
+		width:210px;
+	}
+
+/* Banner */
+
+	#hero {
+		
+		background-size: cover;
+		background-position: right top;
+		background-repeat: no-repeat;
+		color: #ffffff;
+		padding:18em 0 6em 0;
+		text-align: left;
+		position: relative;
+		font-size: .75em;
+	}
+
+/* banner_mid_2 */
+
+	#banner_mid_2 {
+		background-size: 120%;
+		background-position: right top;
+		background-repeat: no-repeat;
+		padding: 1.5em 0 8em 0;
+		text-align: center;
+		position: relative;
+		font-size: .9em;
+	}
+
+/* banner_header_3 */
+
+	#banner_header_3 {
+		background-size: 120%;
+		background-position: right top;
+		background-repeat: no-repeat;
+		padding: 1.5em 0 8em 0;
+		text-align: center;
+		position: relative;
+		font-size: .9em;
+	}
+
+/* banner_header_4 */
+
+	#banner_header_4 {
+		background-size: 120%;
+		background-position: right top;
+		background-repeat: no-repeat;
+		padding: 1.5em 0 8em 0;
+		text-align: center;
+		position: relative;
+		font-size: .9em;
+	}
+
+/* banner_header_5 */
+
+	#banner_header_5 {
+		background-size: 120%;
+		background-position: right top;
+		background-repeat: no-repeat;
+		padding: 1.5em 0 8em 0;
+		text-align: center;
+		position: relative;
+		font-size: .9em;
+	}
+
+/* Banner_Contact */
+	
+	#banner_contact {
+		background-size: cover;
+		background-position: left top;
+		background-repeat: no-repeat;
+		color: #ffffff;
+		padding:18em 0 6em 0;
+		text-align: left;
+		position: relative;
+		font-size: .75em;
+	}
+
+/* Banner_Footer (Breaker Edit)*/
+
+	#banner_footer {
+		background-color: #;
+		background-size: 65%;
+		background-position: center center;
+		background-repeat: no-repeat;
+		color: #d8d8d8;
+		padding: 6em 0 0 0;
+		text-align: center;
+		position: relative;
+	}
+
+/* Footer */
+
+	#footer {
+		/*padding: 4em 0;*/
+	}
+
+

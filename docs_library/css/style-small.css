@@ -1,0 +1,171 @@
+/* Basic */
+
+	body, input, select, textarea {
+		font-size: 14pt;
+	}
+
+	h1{
+		font-size: 2.5em;
+	}
+
+	h2 {
+		font-size: 1.35em;
+		line-height: 1em;
+	}
+
+	h3 {
+		font-size: 1.2em;
+		line-height: 1.5em;
+	}
+
+	h4 {
+		font-size: 1em;
+		line-height: 1.5em;
+	}
+
+/* Section/Article */
+
+	header.major {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+		header.major h2 {
+			font-size: 1.5em;
+		}
+
+		header.major h2 + p {
+			font-size: 1.25em;
+			margin: -0.5em 0 2em 0;
+		}
+
+
+/* Wrapper */
+
+	.wrapper {
+		padding: 3em 0 1em 0;
+	}
+
+/*Container*/
+
+	#contact-info{
+		font-size:.75em;
+	}
+
+/* Main */
+
+	/*#main {
+		padding: 4em 0 0 0;
+	}*/
+
+/* banner */	
+
+	#hero {
+		background-size: 375%;
+		background-position: left top;
+		background-repeat: no-repeat;
+		padding: 1.5em 0 .5em 0;
+		text-align: right;
+		position: relative;
+		font-size: .9em;
+	}
+
+/* banner_mid_2 */	
+
+	#banner_mid_2 {
+		background-size: 375%;
+		background-position: left top;
+		background-repeat: no-repeat;
+		padding: 1.5em 0 .5em 0;
+		text-align: right;
+		position: relative;
+		font-size: .9em;
+	}
+
+/* banner_header_3 */
+
+	#banner_header_3 {
+		background-size: 375%;
+		background-position: left top;
+		background-repeat: no-repeat;
+		padding: 1.5em 0 .5em 0;
+		text-align: right;
+		position: relative;
+		font-size: .8em;
+	}
+
+/* banner_header_4 */
+
+	#banner_header_4 {
+		background-size: 375%;
+		background-position: left top;
+		background-repeat: no-repeat;
+		padding: 1.5em 0 .5em 0;
+		text-align: right;
+		position: relative;
+		font-size: .8em;
+	}
+
+/* banner_header_5 */
+
+	#banner_header_5 {
+		background-size: 375%;
+		background-position: left top;
+		background-repeat: no-repeat;
+		padding: 1.5em 0 .5em 0;
+		text-align: right;
+		position: relative;
+		font-size: .8em;
+	}
+
+/* banner_contact */	
+
+	#banner_contact {
+		background-size: 375%;
+		background-position: left top;
+		background-repeat: no-repeat;
+		padding: 1.5em 0 .5em 0;
+		text-align: right;
+		position: relative;
+		font-size: .8em;
+	}
+
+/* banner_footer */
+
+	#banner_footer {
+		background-color: #;
+		background-size: 90%;
+		background-position: center center;
+		background-repeat: no-repeat;
+		color: #d8d8d8;
+		padding: 6em 0 0 0;
+		text-align: center;
+		position: relative;
+	}
+
+/* Footer */
+
+
+
+	#footer {
+		/*padding: 2em 0;*/
+	}
+
+		#footer #nav-2 {
+			display:none;
+		}
+
+		#footer .copyright {
+			text-align: center;
+		}
+
+			#footer .copyright li {
+				border-left: 0;
+				margin-left: 0;
+				padding-left: 0;
+				display: block;
+			}
+
+
+
+
