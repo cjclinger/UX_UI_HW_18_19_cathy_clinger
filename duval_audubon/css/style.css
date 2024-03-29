@@ -1,0 +1,386 @@
+/*NAVBAR CONTENT*/ 
+#navbar-content {
+    margin: 20px 100px 20px 100px;
+}
+
+#secondary-navbar {
+    background-color: #3ac997;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-logo img {
+    width: 150px;
+    height: 150px;
+}
+
+.nav-link1, .nav-link2, .nav-link3, .nav-link4, .nav-link5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    color: black;
+}
+
+.navbar .nav-item {
+    padding: 15px;
+}
+
+.nav-link1:hover {
+    color: #3ac997;
+    text-decoration: none;
+}
+
+.nav-link2:hover {
+    color: #f86734;
+    text-decoration: none;
+}
+
+.nav-link3:hover {
+    color: #9B36DD;
+    text-decoration: none;
+}
+
+.nav-link4:hover {
+    color: #3E45A2;
+    text-decoration: none;
+}
+
+.nav-link5:hover {
+    color: #E23B96;
+    text-decoration: none;
+}
+
+.secondary-nav .nav-link {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: .9em;
+}
+
+.secondary-nav {
+    padding-right: 100px;
+    justify-content: flex-end;
+}
+
+/*DROPDOWN MENU*/
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    background-color: white;
+  }
+
+.navbar .dropdown-menu1 a:hover {
+    background: #f86734!important;
+    color: white;
+}
+
+.navbar .dropdown-menu2 a:hover {
+    background: #9B36DD!important;
+    color: white;
+}
+
+.navbar .dropdown-menu3 a:hover {
+    background:#3E45A2!important;
+    color: white;
+}
+
+.navbar .dropdown-menu4 a:hover {
+    background: #E23B96!important;
+    color: white;
+}
+
+/*HERO CONTENT*/
+#hero-content  {
+    background: url("https://candacejclay.github.io/UX_UI_Project3/images/hero-image.png");
+    background-size: cover;   
+    background-position: center;                              
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero-content h1 {
+    color: white;
+    font-size: 4em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+}
+
+#hero-content p {
+    color: white;
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*ABOUT DUVAL SECTION*/
+#about-content {
+    background-color: beige;
+    padding: 70px;
+}
+
+#about-content p {
+    color: black;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+/*CAE SECTION*/
+#cae-content h3 {
+    color: #3ac997;
+    font-size: 2.3em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+}
+
+#cae-content p {
+    color: black;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+#cae-content div {
+    padding: 20px;
+}
+
+/*GET INVOLVED SECTION*/
+#involved-content {
+    padding: 70px;
+    background: url("c");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/*GET INVOLVED SECTION CONSERVATION*/
+#involved-content {
+    padding: 70px;
+    background: url("https://candacejclay.github.io/UX_UI_Project3/images/flock.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#involved-content h3 {
+    color: black;
+    font-size: 2.5em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#involved-content p {
+    color: white;
+    font-size: 1.8em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+.box {
+    background-color: #3ac997;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px, rgba(0, 0, 0, 0.05) 0px 0.5px 1px;
+  transition: all .3s ease-in-out;
+}
+
+.box:hover {
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px, rgba(0, 0, 0, 0.18) 0px 4px 11px;
+    cursor: pointer;
+  }
+
+/*NEWSLETTER SECTION*/
+#newsletter-content {
+    background-color: beige;
+    padding: 70px;
+}
+
+#newsletter-content h3 {
+    color: #3ac997;
+    font-size: 2.3em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+}
+
+#newsletter-content p {
+    color: black;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*SIGHTINGS SECTION*/
+#sightings-content {
+    padding: 70px;
+}
+
+#sightings-content h3 {
+    color: #3ac997;
+    font-size: 2.3em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+#sightings-content h4 {
+    color: black;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+#sightings-content p {
+    color: black;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+/*FOOTER CONTENT*/
+#footer-content {
+    padding: 50px;
+    background-color: #3ac997;
+}
+
+#footer-content img {
+    width: 200px;
+    height: 200px;
+}
+
+#footer-content h3 {
+    color: #ffffff;
+    font-size: 1.8em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+}
+
+#footer-content .nav-link {
+    font-size: 1em;
+    font-family: 'Roboto',sans-serif;
+    color: white;
+}
+
+#footer-content .nav-link:hover {
+    color: grey;
+}
+
+#footer-content .button {
+    margin-top: 20px;
+}
+
+/* BUTTON CONTENT */
+.button {
+  align-items: center;
+  background-color: transparent;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: 'Roboto',sans-serif;
+  font-size: 1.2em;
+  height: 48px;
+  justify-content: center;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button:focus {
+  color: #171e29;
+}
+
+.button:hover {
+  border-color: #3ac997;
+  color: #3ac997;
+  text-decoration: none;
+}
+
+.button:active {
+  border-color: #3ac997;
+  color: #3ac997;
+}
+
+@media (min-width: 768px) {
+  .button {
+    min-width: 170px;
+  }
+}
+
+.button2 {
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid white;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-flex;
+    fill: white;
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.2em;
+    height: 48px;
+    justify-content: center;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 15px;
+  }
+  
+  .button2:focus {
+    color: #171e29;
+  }
+  
+  .button2:hover {
+    border-color: grey;
+    color: grey;
+  }
+  
+  .button2:active {
+    border-color: grey;
+    color: grey;
+  }
+  
+  @media (max-width: 768px) {
+    .button2 {
+      min-width: 200px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    #involved-content {
+        height: 75vh;
+    }
+  }
+
+@media (max-width: 768px) {
+    .box {
+        width: 150px;
+        height: 150px;
+    }
+  }
+
+
+
+

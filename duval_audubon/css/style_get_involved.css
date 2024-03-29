@@ -1,0 +1,931 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+/*NAVBAR CONTENT*/ 
+#navbar-content {
+    margin: 20px 100px 20px 100px;
+}
+
+#secondary-navbar {
+    background-color: #3ac997;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-logo img {
+    width: 150px;
+    height: 150px;
+}
+
+.nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    color: black;
+}
+
+.navbar .nav-item {
+    padding: 15px;
+}
+
+.nav-link:hover {
+    color: #f86734;
+}
+
+.secondary-nav .nav-link {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: .9em;
+}
+
+.secondary-nav {
+    padding-right: 100px;
+    justify-content: flex-end;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    background-color: #f86734;
+
+  }
+
+/*NAVBAR CONTENT GET INVOLVED*/ 
+#navbar-content {
+    margin: 20px 100px 20px 100px;
+}
+
+#secondary-navbar-get-involved {
+    background-color: #F86734;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-logo img {
+    width: 150px;
+    height: 150px;
+}
+
+.nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    color: black;
+}
+
+.navbar .nav-item {
+    padding: 15px;
+}
+
+.nav-link:hover {
+    color: #f86734;
+}
+
+.secondary-nav .nav-link {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: .9em;
+}
+
+.secondary-nav {
+    padding-right: 100px;
+    justify-content: flex-end;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    background-color: #f86734;
+
+  }
+
+
+
+/*HERO CONTENT*/
+#hero-content  {
+    background: url("https://candacejclay.github.io/UX_UI_Project3/images/hero-image.png");
+    background-size: cover;   
+    background-position: center;                              
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero-content h1 {
+    color: white;
+    font-size: 4em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+}
+
+#hero-content p {
+    color: white;
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*HERO CONTENT GET INVOLVED*/
+#hero-content-get-involved  {
+    background: url("https://candacejclay.github.io/UX_UI_Project3/images/hero_image_get_involved.jpg");
+    background-size: cover;   
+    background-position: top;                              
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero-content-get-involved h1 {
+    color: #000000;
+    font-size: 4em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+}
+
+#hero-content-get-involved p {
+    color: #000000;
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*ABOUT DUVAL SECTION */
+#about-content {
+    background-color: beige;
+    padding: 70px;
+}
+
+#about-content p {
+    color: black;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+#cae-content h3 {
+    color: #3ac997;
+    font-size: 2.3em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+}
+
+#cae-content p {
+    color: black;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+#cae-content div {
+    padding: 20px;
+}
+
+/*GET INVOLVED SECTION*/
+#involved-content {
+    padding: 70px;
+    background: url("https://candacejclay.github.io/UX_UI_Project3/images/lake_marsh_lily_pads.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#involved-content h3 {
+    color: white;
+    font-size: 2.3em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#involved-content p {
+    color: white;
+    font-size: 1.8em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+.box {
+    background-color: #3ac997;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px, rgba(0, 0, 0, 0.05) 0px 0.5px 1px;
+  transition: all .3s ease-in-out;
+}
+
+.box:hover {
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px, rgba(0, 0, 0, 0.18) 0px 4px 11px;
+  }
+
+/*OFFICES & DIRECTORS GET INVOLVED*/
+#rcc-content {
+    padding: 70px;
+    background: url("https://candacejclay.github.io/UX_UI_Project3/images/lake_marsh_lily_pads.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#rcc-content h3 {
+    color: #333333;
+    font-size: 2.3em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#rcc-content p {
+    color: #ffffff;
+    font-size: 1.8em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+.box {
+    background-color: #F86734;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px, rgba(0, 0, 0, 0.05) 0px 0.5px 1px;
+  transition: all .3s ease-in-out;
+}
+
+.box:hover {
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px, rgba(0, 0, 0, 0.18) 0px 4px 11px;
+  }
+
+
+/*EAGLE WATCH SECTION GET INVOLVED*/
+#eagle-watch-content-get-involved {
+    padding: 70px;
+    background: url("https://candacejclay.github.io/UX_UI_Project3/images/eagle_watch.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#eagle-watch-content-get-involved h1 {
+    color: white;
+    font-size: 4em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+}
+
+#eagle-watch-content-get-involved p {
+    color: white;
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*NEWSLETTER SECTION*/
+#newsletter-content {
+    background-color: #ffffff;
+    padding: 0px;                         
+}
+
+#newsletter-content h3 {
+    color: #F86734;
+    font-size: 2em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    padding-top: 100px;
+}
+
+#newsletter-content p {
+    color: black;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* CARDS CONSERVATION */
+.cards-get-involved {
+    padding: 0px;
+  }
+  .sectionHeading {
+    text-align: center;
+    color: #F86734;
+    font-size: 2.3em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  .showsNear  {
+    padding: 0px 30px 30px 30px;
+  }
+  .cardContainer {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .card-title {
+    color: #F86734;
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+  }
+
+  .card-text p {
+    color: black;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+  #sightings-content h3 {
+    color: #F86734;
+    font-size: 2.3em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    padding-bottom: 20px;
+    }
+
+    #sightings-content h4 {
+        color: black;
+        font-size: 1.1em;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        text-align: left;
+        padding-bottom: 10px;
+    }
+
+    #sightings-content p {
+        color: black;
+        font-size: 1.2em;
+        font-family: 'Roboto', sans-serif;
+        padding-top: 5px;
+        padding-bottom: 50px;
+    }
+
+/*SIGHTINGS SECTION*/
+#sightings-content {
+    padding: 70px;
+}
+
+#sightings-content h3 {
+    color: #3ac997;
+    font-size: 2.3em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+#sightings-content h4 {
+    color: black;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+#sightings-content p {
+    color: black;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+/*SIGHTINGS SECTION CONSERVATION*/
+#sightings-content-get-involved {
+  padding: 0px;
+}
+
+.cardContainer-get-involved {
+  padding: 0px;
+  text-align: center;
+}
+
+.card-get-involved {
+  padding: 0px;
+}
+
+.card-img-top-get-involved {
+  width: 100%;
+  height: 10vw;
+  object-fit: contain;
+}
+
+.card-title-get-involved {
+  padding: 10px;
+}
+
+#sightings-content-get-involved h3 {
+  color: #F86734;
+  font-size: 2.3em;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+#sightings-content-get-involved h4 {
+  color: black;
+  font-size: 1.5em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+#sightings-content-get-involved h5 {
+  color: black;
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#sightings-content-get-involved p {
+  color: black;
+  font-size: 1.1em;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+/*ADOPT A BIRD SECTION GET INVOLVED */
+#adopt-bird-content {
+    padding: 70px;
+    background: url("https://candacejclay.github.io/UX_UI_Project3/images/flamingos.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 50vh;
+    justify-content: center;
+    align-items: bottom;
+    display: flex;
+}
+
+#adopt-bird-content h3 {
+    color: #F86734;
+    font-size: 2.3em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#adopt-bird-content p {
+    color: #ffffff;
+    font-size: 1.8em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.box {
+    background-color: #F86734;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px, rgba(0, 0, 0, 0.05) 0px 0.5px 1px;
+  transition: all .3s ease-in-out;
+}
+
+.box:hover {
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px, rgba(0, 0, 0, 0.18) 0px 4px 11px;
+  }
+
+/*FOOTER CONTENT*/
+#footer-content {
+    padding: 50px;
+    background-color: #3ac997;
+}
+
+#footer-content img {
+    width: 200px;
+    height: 200px;
+}
+
+#footer-content h3 {
+    color: #ffffff;
+    font-size: 1.8em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+}
+
+#footer-content .nav-link {
+    font-size: 1em;
+    font-family: 'Roboto',sans-serif;
+}
+
+#footer-content .nav-link:hover {
+    color: white;
+}
+
+#footer-content .button {
+    margin-top: 20px;
+}
+
+/*FOOTER CONTENT GET INVOLVED*/
+
+#footer-content-get-involved {
+    padding: 50px;
+    background-color: #F86734;
+}
+
+#footer-content-get-involved img {
+    width: 200px;
+    height: 200px;
+}
+
+#footer-content-get-involved h3 {
+    color: #ffffff;
+    font-size: 1.8em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+}
+
+#footer-content-get-involved .h3:hover {
+  color: #ffffff;
+}
+
+#footer-content-get-involved .h3:active {
+  color: #ffffff;
+}
+
+#footer-content-get-involved .h3:focus {
+  color: #ffffff;
+}
+
+#footer-content-get-involved .nav-link {
+  font-size: 1em;
+  font-family: 'Roboto',sans-serif;
+}
+
+#footer-content-get-involved .nav-link:hover {
+    color: #ffffff;
+}
+
+#footer-content-get-involved .nav-link:active {
+  color: #ffffff;
+}
+
+#footer-content-get-involved .nav-link:focus {
+  color: #ffffff;
+}
+
+#footer-content-get-involved .button3get_involved {
+    margin-top: 20px;
+}
+
+/* BUTTON CONTENT */
+.button {
+  align-items: center;
+  background-color: transparent;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: 'Roboto',sans-serif;
+  font-size: 1.2em;
+  height: 48px;
+  justify-content: center;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button:focus {
+  color: #171e29;
+}
+
+.button:hover {
+  border-color: #3ac997;
+  color: #3ac997;
+  text-decoration: none;
+}
+
+.button:active {
+  border-color: #3ac997;
+  color: #3ac997;
+}
+
+@media (min-width: 768px) {
+  .button {
+    min-width: 170px;
+  }
+}
+
+.button2 {
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-flex;
+    fill: #000;
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.2em;
+    height: 48px;
+    justify-content: center;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .button2:focus {
+    color: #171e29;
+  }
+  
+  .button2:hover {
+    border-color: #3ac997;
+    color: #3ac997;
+  }
+  
+  .button2:active {
+    border-color: #3ac997;
+    color: #3ac997;
+  }
+  
+  @media (max-width: 768px) {
+    .button2 {
+      min-width: 200px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    #involved-content {
+        height: 75vh;
+    }
+  }
+
+@media (max-width: 768px) {
+    .box {
+        width: 150px;
+        height: 150px;
+    }
+  }
+
+
+/* BUTTON CONTENT CONSERVATION*/
+.button {
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-flex;
+    fill: #000;
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.2em;
+    height: 48px;
+    justify-content: center;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .button:focus {
+    color: #171e29;
+  }
+  
+  .button:hover {
+    border-color: #F86734;
+    color: #F86734;
+    text-decoration: none;
+  }
+  
+  .button:active {
+    border-color: #F86734;
+    color: #F86734;
+  }
+  
+  @media (min-width: 768px) {
+    .button {
+      min-width: 170px;
+    }
+  }
+  
+  .button2get_involved {
+      align-items: center;
+      background-color: transparent;
+      border: 2px solid #000;
+      box-sizing: border-box;
+      color: #000;
+      cursor: pointer;
+      display: inline-flex;
+      fill: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 1.2em;
+      height: 48px;
+      justify-content: center;
+      min-width: 140px;
+      outline: 0;
+      padding: 0 17px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+    
+    .button2get_involved:focus {
+      color: #171e29;
+    }
+    
+    .button2get_involved:hover {
+      border-color: #F86734;
+      color: #F86734;
+    }
+    
+    .button2get_involved:active {
+      border-color: #F86734;
+      color: #F86734;
+    }
+    
+    @media (max-width: 768px) {
+      .button2get_involved {
+        min-width: 200px;
+      }
+    }
+  
+    .button3get_involved {
+      align-items: center;
+      background-color: transparent;
+      border: 2px solid #ffffff;
+      box-sizing: border-box;
+      color: #ffffff;
+      cursor: pointer;
+      display: inline-flex;
+      fill: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 1.2em;
+      height: 48px;
+      justify-content: center;
+      min-width: 140px;
+      outline: 0;
+      padding: 0 17px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+    
+    .button3get_involved:focus {
+      color: #ffffff;
+    }
+    
+    .button3get_involved:hover {
+      border-color: #3ac997;
+      color: #3ac997;
+    }
+    
+    .button3get_involved:active {
+      border-color: #3ac997;
+      color: #3ac997;
+    }
+    
+    @media (max-width: 768px) {
+      .button2 {
+        min-width: 200px;
+      }
+    }
+
+      .button4get_involved {
+        align-items: center;
+        background-color: transparent;
+        border: 2px solid #ffffff;
+        box-sizing: border-box;
+        color: #ffffff;
+        cursor: pointer;
+        display: inline-flex;
+        fill: #000;
+        font-family: 'Roboto',sans-serif;
+        font-size: 1.2em;
+        height: 48px;
+        justify-content: center;
+        min-width: 140px;
+        outline: 0;
+        padding: 0 17px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      
+      .button4get_involved:focus {
+        color: #ffffff;
+      }
+      
+      .button4get_involved:hover {
+        border-color: #F86734;
+        color: #F86734;
+      }
+      
+      .button4get_involved:active {
+        border-color: #F86734;
+        color: #F86734;
+      }
+      
+      @media (max-width: 768px) {
+        .button3conservation {
+          min-width: 200px;
+        }
+      }
+
+      .button5get_involved {
+        align-items: center;
+        background-color: transparent;
+        border: 2px solid #000;
+        box-sizing: border-box;
+        margin: auto;
+        display: inline-flex;
+        color: #000;
+        cursor: pointer;
+        fill: #000;
+        font-family: 'Roboto',sans-serif;
+        font-size: 1.2em;
+        height: 48px;
+        justify-content: center;
+        min-width: 140px;
+        outline: 0;
+        padding: 0 17px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      
+      .button5get_involved:focus {
+        color: #171e29;
+      }
+      
+      .button5get_involved:hover {
+        border-color: #F86734;
+        color: #F86734;
+      }
+      
+      .button5get_involved:active {
+        border-color: #F86734;
+        color: #F86734;
+      }
+      
+      @media (max-width: 768px) {
+        .button5get_involved {
+          min-width: 200px;
+        }
+      }
+
+    @media (max-width: 768px) {
+      #involved-content {
+          height: 75vh;
+      }
+    }
+  
+  @media (max-width: 768px) {
+      .box {
+          width: 150px;
+          height: 150px;
+      }
+    }
+  
+

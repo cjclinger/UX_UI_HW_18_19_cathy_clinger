@@ -1,0 +1,597 @@
+<<<<<<< HEAD
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+/*NAVBAR CONTENT*/ 
+#navbar-content {
+    margin: 20px 100px 20px 100px;
+}
+
+=======
+>>>>>>> 51db07d7bf6d24051813dc67a227faf48d894ec9
+#secondary-navbar {
+  background-color: #3E45A2;
+}
+
+/*HERO CONTENT CONSERVATION*/
+#hero-content-conservation  {
+    background: url("https://candacejclay.github.io/UX_UI_Project3/images/hero_image_conservation.png");
+    background-size: cover;   
+    background-position: top;                              
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero-content-conservation h1 {
+    color: white;
+    font-size: 4em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+}
+
+#hero-content-conservation p {
+    color: white;
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*REGIONAL CONSERVATION COMMITTEE SECTION*/
+#rcc-content {
+    padding: 70px;
+    background-color: beige;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#rcc-content h3 {
+    color: #333333;
+    font-size: 2.3em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#rcc-content p {
+    color: #ffffff;
+    font-size: 1.8em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+.box {
+    background-color: #3E45A2;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px, rgba(0, 0, 0, 0.05) 0px 0.5px 1px;
+  transition: all .3s ease-in-out;
+}
+
+.box:hover {
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px, rgba(0, 0, 0, 0.18) 0px 4px 11px;
+  }
+
+
+/*EAGLE WATCH SECTION CONSERVATION*/
+#eagle-watch-content-conservation {
+    padding: 70px;
+    background: url("https://candacejclay.github.io/UX_UI_Project3/images/eagle_watch.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#eagle-watch-content-conservation h1 {
+    color: white;
+    font-size: 4em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+}
+
+#eagle-watch-content-conservation p {
+    color: white;
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*NEWSLETTER SECTION*/
+#newsletter-content {
+    background-color: beige;
+    padding: 70px;
+}
+
+#newsletter-content h3 {
+    color: #3E45A2;
+    font-size: 2.3em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+}
+
+#newsletter-content p {
+    color: black;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* CARDS CONSERVATION */
+.cards-conservation {
+    padding: 0px;
+  }
+  .sectionHeading {
+    text-align: center;
+    color: #3E45A2;
+    font-size: 2.3em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  .showsNear  {
+    padding: 0px 30px 30px 30px;
+  }
+  .cardContainer {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .card-title {
+    color: #3E45A2;
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+  }
+
+  .card-text p {
+    color: black;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+  #sightings-content h3 {
+    color: #3E45A2;
+    font-size: 2.3em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    padding-bottom: 20px;
+    }
+
+    #sightings-content h4 {
+        color: black;
+        font-size: 1.1em;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        text-align: left;
+        padding-bottom: 10px;
+    }
+
+    #sightings-content p {
+        color: black;
+        font-size: 1.2em;
+        font-family: 'Roboto', sans-serif;
+        padding-top: 5px;
+        padding-bottom: 50px;
+    }
+
+
+/*SIGHTINGS SECTION CONSERVATION*/
+#sightings-content-conservation {
+  padding: 0px;
+}
+
+.cardContainer-conservation {
+  padding: 0px;
+  text-align: center;
+}
+
+.card-conservation {
+  padding: 0px;
+}
+
+.card-img-top-conservation {
+  width: 100%;
+  height: 10vw;
+  object-fit: contain;
+}
+
+.card-title-conservation {
+  padding: 10px;
+}
+
+#sightings-content-conservation h3 {
+  color: #3E45A2;
+  font-size: 2.3em;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+#sightings-content-conservation h4 {
+  color: black;
+  font-size: 1.5em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+#sightings-content-conservation h5 {
+  color: black;
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#sightings-content-conservation p {
+  color: black;
+  font-size: 1.1em;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+/*ADOPT A BIRD SECTION CONSERVATION*/
+#adopt-bird-content {
+    padding: 70px;
+    background: url("https://candacejclay.github.io/UX_UI_Project3/images/flamingos.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 50vh;
+    justify-content: center;
+    align-items: bottom;
+    display: flex;
+}
+
+#adopt-bird-content h3 {
+    color: #3E45A2;
+    font-size: 2.3em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#adopt-bird-content p {
+    color: #ffffff;
+    font-size: 1.8em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.box {
+    background-color: #3E45A2;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px, rgba(0, 0, 0, 0.05) 0px 0.5px 1px;
+  transition: all .3s ease-in-out;
+}
+
+.box:hover {
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px, rgba(0, 0, 0, 0.18) 0px 4px 11px;
+  }
+
+/*FOOTER CONTENT*/
+#footer-content {
+  padding: 50px;
+  background-color: #3E45A2;
+}
+
+#footer-content img {
+  width: 200px;
+  height: 200px;
+}
+
+#footer-content h3 {
+  color: #ffffff;
+  font-size: 1.8em;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 600;
+}
+
+#footer-content .nav-link {
+  font-size: 1em;
+  font-family: 'Roboto',sans-serif;
+  color: white;
+}
+
+#footer-content-conservation .nav-link:hover {
+    color: #ffffff;
+}
+
+#footer-content-conservation .nav-link:active {
+  color: #ffffff;
+}
+
+#footer-content-conservation .h3:hover {
+  color: #ffffff;
+}
+
+#footer-content-conservation .h3:active {
+  color: #ffffff;
+}
+
+#footer-content-conservation .h3:focus {
+  color: #ffffff;
+}
+
+#footer-content-conservation .nav-link {
+  font-size: 1em;
+  font-family: 'Roboto',sans-serif;
+}
+
+#footer-content-conservation .nav-link:hover {
+    color: #ffffff;
+}
+
+#footer-content-conservation .nav-link:active {
+  color: #ffffff;
+}
+
+#footer-content-conservation .nav-link:focus {
+  color: #ffffff;
+}
+
+#footer-content .nav-link:hover {
+  color: grey;
+
+}
+
+#footer-content .button {
+  margin-top: 20px;
+}
+
+/* BUTTON CONTENT */
+.button:focus {
+  color: #171e29;
+}
+
+.button:hover {
+  border-color: #3E45A2;
+  color: #3E45A2;
+  text-decoration: none;
+}
+
+.button:active {
+  border-color: #3E45A2;
+  color: #3E45A2;
+}
+
+@media (min-width: 768px) {
+  .button {
+    min-width: 170px;
+  }
+}
+
+.button2 {
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid white;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-flex;
+    fill: white;
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.2em;
+    height: 48px;
+    justify-content: center;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .button2:hover {
+    border-color: grey;
+    color: grey;
+  }
+
+/* BUTTON CONTENT CONSERVATION*/
+.button {
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-flex;
+    fill: #000;
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.2em;
+    height: 48px;
+    justify-content: center;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .button:focus {
+    color: #171e29;
+  }
+  
+  .button:hover {
+    border-color: #3E45A2;
+    color: #3E45A2;
+    text-decoration: none;
+  }
+  
+  .button:active {
+    border-color: #3E45A2;
+    color: #3E45A2;
+  }
+  
+  @media (min-width: 768px) {
+    .button {
+      min-width: 170px;
+    }
+  }
+  
+<<<<<<< HEAD
+  .button2conservation {
+      align-items: center;
+      background-color: transparent;
+      border: 2px solid #000;
+      box-sizing: border-box;
+      color: #000;
+      cursor: pointer;
+      display: inline-flex;
+      fill: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 1.2em;
+      height: 48px;
+      justify-content: center;
+      min-width: 140px;
+      outline: 0;
+      padding: 0 17px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+    
+    .button2conservation:focus {
+      color: #171e29;
+    }
+    
+    .button2conservation:hover {
+      border-color: #3E45A2;
+      color: #3E45A2;
+    }
+    
+    .button2conservation:active {
+      border-color: #3E45A2;
+      color: #3E45A2;
+    }
+    
+    @media (max-width: 768px) {
+      .button2conservation {
+        min-width: 200px;
+      }
+    }
+  
+    .button3conservation {
+        align-items: center;
+        background-color: transparent;
+        border: 2px solid #ffffff;
+        box-sizing: border-box;
+        color: #ffffff;
+        cursor: pointer;
+        display: inline-flex;
+        fill: #000;
+        font-family: 'Roboto',sans-serif;
+        font-size: 1.2em;
+        height: 48px;
+        justify-content: center;
+        min-width: 140px;
+        outline: 0;
+        padding: 0 17px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      
+      .button3conservation:focus {
+        color: #ffffff;
+      }
+      
+      .button3conservation:hover {
+        border-color: #3ac997;
+        color: #3ac997;
+      }
+      
+      .button3conservation:active {
+        border-color: #3ac997;
+        color: #3ac997;
+      }
+      
+      @media (max-width: 768px) {
+        .button3conservation {
+          min-width: 200px;
+        }
+      }
+
+      .button4conservation {
+        align-items: center;
+        background-color: transparent;
+        border: 2px solid #ffffff;
+        box-sizing: border-box;
+        color: #ffffff;
+        cursor: pointer;
+        display: inline-flex;
+        fill: #000;
+        font-family: 'Roboto',sans-serif;
+        font-size: 1.2em;
+        height: 48px;
+        justify-content: center;
+        min-width: 140px;
+        outline: 0;
+        padding: 0 17px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      
+      .button4conservation:focus {
+        color: #ffffff;
+      }
+      
+      .button4conservation:hover {
+        border-color: #3E45A2;
+        color: #3E45A2;
+      }
+      
+      .button4conservation:active {
+        border-color: #3E45A2;
+        color: #3E45A2;
+      }
+      
+      @media (max-width: 768px) {
+        .button3conservation {
+          min-width: 200px;
+        }
+      }
+=======
+
+>>>>>>> 51db07d7bf6d24051813dc67a227faf48d894ec9
+
+  
+
